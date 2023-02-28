@@ -1,0 +1,5 @@
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.csproj.AssemblyReference.cache
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.AssemblyInfoInputs.cache
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.AssemblyInfo.cs
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.csproj.CoreCompileInputs.cache

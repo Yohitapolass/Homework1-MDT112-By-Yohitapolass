@@ -14,7 +14,36 @@ namespace PasswordValidation
 
             bool isValid = false;
 
-            
+            switch (agencyCode)
+            {
+                case "CIA":
+                    if (CheckCIA(password))
+                    {
+                        isValid = true;
+                    }
+                    break;
+                case "FBI":
+                    if (CheckFBI(password))
+                    {
+                        isValid = true;
+                    }
+                    break;
+                case "NSA":
+                    if (CheckNSA(password))
+                    {
+                        isValid = true;
+                    }
+                    break;
+            }
+
+            if (isValid)
+            {
+                Console.WriteLine("Password is valid");
+            }
+            else
+            {
+                Console.WriteLine("Password is invalid");
+            }
         }
     }
 }
