@@ -74,15 +74,15 @@ namespace PasswordValidation
             int thousandsDigits = (password / 10000) % 10;
             int hundredsDigit = (password / 100) % 10;
 
-            if (hundredsDigit % 3 != 0)
+            if (hundredThousandsDigit < 4 || hundredThousandsDigit > 7)
             {
                 return false;
             }
-            if (hundredsDigit % 3 != 0)
+            if (hundredsDigit % 2 != 0 || hundredsDigit == 6)
             {
                 return false;
             }
-            if (hundredsDigit % 3 != 0)
+            if (thousandsDigits % 2 == 0)
             {
                 return false;
             }
