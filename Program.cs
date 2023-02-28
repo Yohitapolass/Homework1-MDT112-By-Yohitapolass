@@ -60,7 +60,7 @@ namespace PasswordValidation
             {
                 return false;
             }
-            if (thousandsDigit <= 6 && thousandsDigit == 8)
+            if (thousandsDigit < 6 || thousandsDigit == 8)
             {
                 return false;
             }
