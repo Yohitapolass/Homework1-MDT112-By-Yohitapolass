@@ -104,8 +104,8 @@ namespace PasswordValidation
             {
                 return false;
             }
-            if ((password % 10 != Digit ) && ((password / 10) % 10 != Digit) && ((password / 100) % 10 != Digit) && 
-               ((password / 1000) % 10 != Digit) && ((password / 10000) % 10 != Digit) && (password / 100000 != Digit))
+            if (( password % 10 != Digit ) && (( password / 10) % 10 != Digit ) && (( password / 100) % 10 != Digit ) && 
+               (( password / 1000) % 10 != Digit ) && (( password / 10000) % 10 != Digit ) && ( password / 100000 != Digit ))
             {
                 return false;
             }
