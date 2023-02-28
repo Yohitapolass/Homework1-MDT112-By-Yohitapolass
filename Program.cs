@@ -96,15 +96,16 @@ namespace PasswordValidation
             int hundredsDigits = (password / 100) % 10;
             int Digit = 7;
 
-            if (unitDigits % 3 != 0)
+            if (unitDigits  == 0 || unitDigits  == 9 || unitDigits  == 8 || unitDigits  == 7 || unitDigits  == 4 )
             {
                 return false;
             }
-            if (unitDigits % 3 != 0)
+            if (hundredsDigits % 3 != 0 )
             {
                 return false;
             }
-            if (unitDigits % 3 != 0)
+            if ((password % 10 != Digit ) && ((password / 10) % 10 != Digit) && ((password / 100) % 10 != Digit) && 
+               ((password / 1000) % 10 != Digit) && ((password / 10000) % 10 != Digit) && (password / 100000 != Digit))
             {
                 return false;
             }
