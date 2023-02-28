@@ -11,6 +11,10 @@ namespace PasswordValidation
 
             Console.Write("Enter Agency code (CIA, FBI, or NSA): ");
             string agencyCode = Console.ReadLine().ToUpper();
+
+            bool isValid = false;
+
+            
         }
     }
 }
