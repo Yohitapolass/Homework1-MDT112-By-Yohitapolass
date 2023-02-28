@@ -3,3 +3,13 @@ C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yoh
 C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.AssemblyInfoInputs.cache
 C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.AssemblyInfo.cs
 C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.csproj.CoreCompileInputs.cache
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\bin\Debug\net7.0\HomeWork1-Yohitapolass.exe
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\bin\Debug\net7.0\HomeWork1-Yohitapolass.deps.json
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\bin\Debug\net7.0\HomeWork1-Yohitapolass.runtimeconfig.json
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\bin\Debug\net7.0\HomeWork1-Yohitapolass.dll
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\bin\Debug\net7.0\HomeWork1-Yohitapolass.pdb
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.dll
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\refint\HomeWork1-Yohitapolass.dll
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.pdb
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\HomeWork1-Yohitapolass.genruntimeconfig.cache
+C:\Users\RinyaChan\Desktop\HomeWork1-Yohitapolass\obj\Debug\net7.0\ref\HomeWork1-Yohitapolass.dll
