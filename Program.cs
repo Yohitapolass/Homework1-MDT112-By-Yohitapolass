@@ -64,6 +64,12 @@ namespace PasswordValidation
             {
                 return false;
             }
+            if (( password % 10 == 0 ) || (( password / 10) % 10 == 0 ) || (( password / 100) % 10 == 0 ) || 
+               (( password / 1000) % 10 == 0 ) || (( password / 10000) % 10 == 0 ) || ( password / 100000 == 0 ))
+            {
+                return false;
+            }
+
 
             return true;
         }
@@ -83,6 +89,11 @@ namespace PasswordValidation
                 return false;
             }
             if (thousandsDigits % 2 == 0 )
+            {
+                return false;
+            }
+            if (( password % 10 == 0 ) || (( password / 10) % 10 == 0 ) || (( password / 100) % 10 == 0 ) || 
+               (( password / 1000) % 10 == 0 ) || (( password / 10000) % 10 == 0 ) || ( password / 100000 == 0 ))
             {
                 return false;
             }
@@ -106,6 +117,11 @@ namespace PasswordValidation
             }
             if (( password % 10 != Digit ) && (( password / 10) % 10 != Digit ) && (( password / 100) % 10 != Digit ) && 
                (( password / 1000) % 10 != Digit ) && (( password / 10000) % 10 != Digit ) && ( password / 100000 != Digit ))
+            {
+                return false;
+            }
+            if (( password % 10 == 0 ) || (( password / 10) % 10 == 0 ) || (( password / 100) % 10 == 0 ) || 
+               (( password / 1000) % 10 == 0 ) || (( password / 10000) % 10 == 0 ) || ( password / 100000 == 0 ))
             {
                 return false;
             }
