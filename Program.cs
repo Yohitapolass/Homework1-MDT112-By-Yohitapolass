@@ -14,7 +14,7 @@ namespace PasswordValidation
 
             bool isValid = false;
 
-            switch (agencyCode)
+            switch ( agencyCode )
             {
                 case "CIA":
                     if (CheckCIA(password))
@@ -36,7 +36,7 @@ namespace PasswordValidation
                     break;
             }
 
-            if (isValid)
+            if ( isValid )
             {
                 Console.WriteLine("Password is valid");
             }
@@ -49,8 +49,8 @@ namespace PasswordValidation
         static bool CheckCIA(int password)
         {
             int unitDigit = password % 10;
-            int tensDigit = (password / 10) % 10;
-            int thousandsDigit = (password / 1000) % 10;
+            int tensDigit = ( password / 10 ) % 10;
+            int thousandsDigit = ( password / 1000 ) % 10;
 
             if ( unitDigit % 3 != 0 )
             {
@@ -76,9 +76,9 @@ namespace PasswordValidation
 
          static bool CheckFBI(int password)
         {
-            int hundredThousandsDigit = (password / 100000);
-            int thousandsDigits = (password / 10000) % 10;
-            int hundredsDigit = (password / 100) % 10;
+            int hundredThousandsDigit = ( password / 100000 );
+            int thousandsDigits = ( password / 10000 ) % 10;
+            int hundredsDigit = ( password / 100 ) % 10;
 
             if ( hundredThousandsDigit < 4 || hundredThousandsDigit > 7 )
             {
@@ -88,7 +88,7 @@ namespace PasswordValidation
             {
                 return false;
             }
-            if (thousandsDigits % 2 == 0 )
+            if ( thousandsDigits % 2 == 0 )
             {
                 return false;
             }
@@ -104,14 +104,14 @@ namespace PasswordValidation
         static bool CheckNSA(int password)
         {
             int unitDigits = password % 10;
-            int hundredsDigits = (password / 100) % 10;
+            int hundredsDigits = ( password / 100 ) % 10;
             int Digit = 7;
 
-            if (unitDigits  == 0 || unitDigits  == 9 || unitDigits  == 8 || unitDigits  == 7 || unitDigits  == 4 )
+            if ( unitDigits  == 0 || unitDigits  == 9 || unitDigits  == 8 || unitDigits  == 7 || unitDigits  == 4 )
             {
                 return false;
             }
-            if (hundredsDigits % 3 != 0 )
+            if ( hundredsDigits % 3 != 0 )
             {
                 return false;
             }
